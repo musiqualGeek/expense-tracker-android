@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "412351720122",
+    "project_id": "rupeefy-28276",
+    "storage_bucket": "rupeefy-28276.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412351720122:android:506155470063662bb47083",
+        "android_client_info": {
+          "package_name": "com.ptkzonelabs.rupeefy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "412351720122-pefdqd1kmo4h2ghtpi61eclssgh69qi7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ptkzonelabs.rupeefy",
+            "certificate_hash": "c691f7a82899d9cb0c63c006448ba91b86c7212a"
+          }
+        },
+        {
+          "client_id": "412351720122-709781unt0hb1rp60pdnofifdqq2vv9i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3Pr-zZCrgrvXK8nsER3BFNXIdLIwN_d0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "412351720122-709781unt0hb1rp60pdnofifdqq2vv9i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:background="#ffffff">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_contact_us"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:fontFamily="@font/sourcesanspro_semibold"-->
+<!--            android:text="CONTACT US"-->
+<!--            android:textColor="@android:color/black"-->
+<!--            android:textSize="32sp" />-->
+
+<!--        <View-->
+<!--            android:id="@+id/divider_1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="0.5dp"-->
+<!--            android:layout_below="@id/tv_contact_us"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:layout_marginEnd="16dp"-->
+<!--            android:background="@android:color/darker_gray" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_mail_us"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/divider_1"-->
+<!--            android:layout_marginStart="24dp"-->
+<!--            android:layout_marginTop="24dp"-->
+<!--            android:fontFamily="@font/sourcesanspro_semibold"-->
+<!--            android:text="For any query Mail us at -"-->
+<!--            android:textSize="20sp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_email"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tv_mail_us"-->
+<!--            android:layout_marginStart="24dp"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:fontFamily="@font/sourcesanspro_semibold"-->
+<!--            android:text="ptkzonelabs@gmail.com"-->
+<!--            android:textColor="@color/colorItem1"-->
+<!--            android:textSize="18sp" />-->
+
+<!--        <View-->
+<!--            android:id="@+id/divider_2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="0.5dp"-->
+<!--            android:layout_below="@id/tv_email"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginTop="24dp"-->
+<!--            android:layout_marginEnd="16dp"-->
+<!--            android:background="@android:color/darker_gray" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_mobile"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/divider_2"-->
+<!--            android:layout_marginStart="24dp"-->
+<!--            android:layout_marginTop="24dp"-->
+<!--            android:fontFamily="@font/sourcesanspro_semibold"-->
+<!--            android:text="Mobile: +91-7045475220"-->
+<!--            android:textSize="18sp" />-->
+
+<!--        <View-->
+<!--            android:id="@+id/divider_3"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="0.5dp"-->
+<!--            android:layout_below="@id/tv_mobile"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginTop="24dp"-->
+<!--            android:layout_marginEnd="16dp"-->
+<!--            android:background="@android:color/darker_gray" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_fb"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/divider_3"-->
+<!--            android:layout_marginStart="24dp"-->
+<!--            android:layout_marginTop="32dp"-->
+<!--            android:fontFamily="@font/sourcesanspro_semibold"-->
+<!--            android:text="Facebook:"-->
+<!--            android:textSize="24sp" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/iv_fb"-->
+<!--            android:layout_width="45dp"-->
+<!--            android:layout_height="45dp"-->
+<!--            android:layout_below="@id/divider_3"-->
+<!--            android:layout_marginStart="60dp"-->
+<!--            android:layout_marginTop="24dp"-->
+<!--            android:layout_toEndOf="@id/tv_fb"-->
+<!--            android:src="@drawable/fb" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_twitter"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tv_fb"-->
+<!--            android:layout_marginStart="24dp"-->
+<!--            android:layout_marginTop="32dp"-->
+<!--            android:fontFamily="@font/sourcesanspro_semibold"-->
+<!--            android:text="Twitter:"-->
+<!--            android:textSize="24sp" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/iv_twitter"-->
+<!--            android:layout_width="45dp"-->
+<!--            android:layout_height="45dp"-->
+<!--            android:layout_below="@id/tv_fb"-->
+<!--            android:layout_marginStart="60dp"-->
+<!--            android:layout_marginTop="24dp"-->
+<!--            android:layout_toEndOf="@id/tv_fb"-->
+<!--            android:src="@drawable/twitter" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/iv_background"-->
+<!--            android:layout_width="350dp"-->
+<!--            android:layout_height="300dp"-->
+<!--            android:layout_below="@id/iv_twitter"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:src="@drawable/b_g" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_version"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/iv_background"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:fontFamily="@font/sourcesanspro_semibold"-->
+<!--            android:text="Version 0.1.0" />-->
+
+
+<!--    </RelativeLayout>-->
+
+</FrameLayout>
